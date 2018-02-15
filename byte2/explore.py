@@ -12,7 +12,7 @@ import json
 
 
 # This API key is provided by google as described in the tutorial
-API_KEY = 'AIzaSyD6dPrUdI_UAlyF-H09oltdT_S-mvVnt4o'
+API_KEY = ''
 
 # This is the table id for the fusion table
 TABLE_ID = '1-fFaNY4vYfMCqRe74Mx23qFJvq1dND_AVSYfY0C2'
