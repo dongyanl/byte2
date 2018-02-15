@@ -46,27 +46,35 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
 	<h1>Quality: About This Data Set</h1>
-        <p>Write a brief summary about the quality of the data set here</a></p>
+        <p>The quality of the data set is relatively high. Although the data of major Chinese airlines are missing, it can be used to explore the airline safety in certain areas. The data makes sense relative to itself and it is correct.</a></p>
       </div>
 
     
       <div class="page-header">
 	<h2>Is the data complete?</h2>
-	<p>If not, what is missing and what concerns does it raise?
-	What is your evidence for this?</p>
+	<p>In some way, the data is incomplete, because it only includes 56 airlines in the world. Most major airlines in China, with fairly high passenger flow volume, are missing in this dataset. 
+	When researchers want to look into the airline safety from a worldwide view, sampling bias would raise. However, within the dataset, it is complete because there is no N/A or null values in any of the cells. </p>
       </div>
       
       <div class="page-header">
 	<h2>Is the data coherent?</h2>
-	<p>Does it make sense relative to itself? Does it match your
-	expectations? Are the distributions sensible? What is your
-	evidence for this?</p>
+	<p>The data makes sence relative to itself. I would expect both the total number of fatalities and incidents to decrease from one period to the next. 
+	The graphs below support my expectation, showing that for most airlines, the total number of facilities and incidents are indeed decreasing in a large scale.
+	I would also expect the rate of fatalities of each airline to be consistent from the first period to the second. 
+	However, the graph of fatalities number per 1 trillion seat kilometers shows that there is no correlation in the rate of fatalities from one period to the next. </p>
+	<div>
+	<img src="https://github.com/dongyanl/byte2/blob/master/byte2/fatalities.png?raw=true" height="333" width="500"/>
+	<img src="https://github.com/dongyanl/byte2/blob/master/byte2/incidents.png?raw=true" height="333" width="500"/>
+	<img src="https://github.com/dongyanl/byte2/blob/master/byte2/fatalitiesperask.png?raw=true" height="333" width="500"/>
+	<img src="https://github.com/dongyanl/byte2/blob/master/byte2/incidentsperask.png?raw=true" height="333" width="500"/>
+	</div>
       </div>
 
       <div class="page-header">
 	<h2>Is the data correct?</h2>
-	<p>What aspects of this data can you verify? How did you do so? What did
-	you find?</p>
+	<p>The data is correct except for column 'avail_seat_km_per_week'. 
+	Becasue the number of available seat and the number of kilometers the airline flies would absolutely be different over 30 years.
+	I have verified on the website of aviation safety network that other columns are all correct.</p>
       </div>
 
     </div> <!-- /container -->
